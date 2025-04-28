@@ -3,65 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CondeeIA - Sua Inteligência Artificial</title>
+    <title>Condee IA</title>
     <style>
         body {
-            margin: 0;
             font-family: Arial, sans-serif;
-            background: #f9fafb;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header {
-            background-color: #000000;
-            color: white;
-            padding: 20px;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
             text-align: center;
-            font-size: 2em;
-            font-weight: bold;
         }
-        main {
-            flex: 1;
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        .welcome {
+            font-size: 32px;
+            color: #6366f1;
+            margin-bottom: 20px;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
-            text-align: center;
-            padding: 30px;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
         }
-        footer {
-            background-color: #000000;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            font-size: 0.9em;
+
+        .welcome img {
+            height: 40px;
+            vertical-align: middle;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
         }
     </style>
 </head>
 <body>
+    <div class="container">
+        <div class="welcome">
+            <span>Bem-vindo(a) à</span>
+            <img src="https://raw.githubusercontent.com/EduardoLuizz/CondeeIA3/main/logo.png" alt="Logo Condee">
+            <span>Condee</span>
+        </div>
+        <p>Fale agora com nossa IA inteligente e tire suas dúvidas!</p>
+    </div>
 
-<header>
-    CondeeIA
-</header>
-
-<main>
-    <h1>Bem-vindo(a)!</h1>
-    <p>Sou a CondeeIA, estou aqui para te ajudar com oqur for preciso!.</p>
-</main>
-
-<footer>
-    Criado por Eduardo Luiz Vicente | Condee © 2025
-</footer>
-
-<!-- https://bots.easy-peasy.ai/bot/4b018cae-3cdc-43be-b263-bc9d2f3d1986 -->
-<script src="https://bots.easy-peasy.ai/chat.min.js" 
-        data-chat-url="https://bots.easy-peasy.ai/bot/4b018cae-3cdc-43be-b263-bc9d2f3d1986" 
-        data-btn-position="bottom-right" 
-        data-widget-btn-color="#6366f1" 
+    <script src="https://bots.easy-peasy.ai/chat.min.js"
+        data-chat-url="https://bots.easy-peasy.ai/bot/4b018cae-3cdc-43be-b263-bc9d2f3d1986"
+        data-btn-position="bottom-right"
+        data-widget-btn-color="#6366f1"
         defer>
-</script>
-
+    </script>
 </body>
 </html>
